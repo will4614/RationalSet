@@ -11,15 +11,8 @@
 #include <iostream>
 
 int main () {
-  const std::string END_MSSG = "Processing Complete";
-  int anInt;
 
-  std::cout << "Enter an integer: ";
-  std::cin >> anInt;
-
-  std::cout << "The int is: " << anInt << std::endl << std::endl;
-
-  std::cout << END_MSSG << std::endl << std::endl;
+  std::cout << "Processing Complete" << std::endl;
 
   return EXIT_SUCCESS;
 }
